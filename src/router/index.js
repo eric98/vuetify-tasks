@@ -6,6 +6,8 @@ import Landing from '@/components/Landing'
 import Login from '@/components/Login'
 import Tasks from '@/components/TaskComponent'
 import Counter from '@/components/CounterComponent'
+import TasksComponent from '@/components/TasksComponent'
+import TasksTimeline from '@/components/TasksTimeline'
 
 Vue.use(Router)
 
@@ -56,6 +58,21 @@ export default new Router({
         //   }
         // }
       ]
+    },
+    {
+      path: '/cards',
+      name: 'Tasks',
+      component: TasksComponent
+    },
+    {
+      path: '/counter',
+      name: 'Counter',
+      component: Counter
+    },
+    {
+      path: '/timeline',
+      name: '/tasks/timeline',
+      component: TasksTimeline
     }
   ]
 })

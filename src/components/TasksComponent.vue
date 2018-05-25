@@ -3,7 +3,7 @@
         <v-layout>
             <v-flex xs12 sm6 offset-sm3>
                 <v-card v-for="task in tasks" :key="task.id"  class="mb-1">
-                    <v-card-media src="http://lorempixel.com/400/200/" height="200px">
+                    <v-card-media src="http://via.placeholder.com/400x200" height="200px">
                     </v-card-media>
                     <v-card-title primary-title>
                         <div>
